@@ -1,0 +1,174 @@
+p{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 0px 200px 0px 0px;
+}
+
+h3{
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 90px 70px 0px 0px;
+}
+
+.banner {
+    background-color: #000000;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 200px;
+    top: 87px;
+}
+
+.subtitle{
+    padding: 50px 50px 0px 50px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.subtitle2{
+    padding: 50px 50px 80px 50px;
+    color: #fff;
+    left: 0px;
+    top: 780px;
+    font-family: 'Inter', sans-serif;
+}
+
+.back{
+    background-color: #000000;
+}
+
+.profile{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 56px;
+    top: 60px;
+}
+
+.projects{
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.col-xl{
+    height: 165px;
+    border-radius: 15px;
+    margin: 10px 20px 10px 0px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+#linkedin{
+    float: right;
+    width: 25px;
+    height: auto;
+    margin: 5px 0px 0px 0px;
+}
+
+#github{
+    float: right;
+    width: 25px;
+    height: auto;
+    margin: 5px 0px 0px 30px;
+}
+
+#translate{
+    margin: 0px 30px 0px 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+#tobyimg{
+    margin: auto;
+    width: 125px;
+}
+
+#createimg{
+    margin: auto;
+    width: 200px;
+}
+
+#assistimg{
+    margin: auto;
+    width: 125px;
+}
+
+#cicloimg{
+    margin: auto;
+    width: 125px;
+}
+
+@media (max-width: 1200px){
+    .projects{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .title{
+        font-size: 50px;
+        top: 70px;
+        left: 300px;
+    }
+
+    .subtitle{
+        padding: 100px 50px 50px 50px;
+    }
+
+    h3{
+        font-size: 45px;
+    }
+
+    p{
+        padding: 0px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .profile{
+        width: 150px;
+        height: auto;
+        margin: 0px 0px 100px 0px;
+    }
+    .social{
+        justify-content: flex-start;
+        margin: 160px 50px 0px 300px;
+    }
+    #github{
+        width: 45px;
+        height: auto;
+    }
+    #linkedin{
+        width: 45px;
+        height: auto;
+    }
+    #tobyimg{
+        margin: auto;
+        width: 200px !important;
+    }
+    #createimg{
+        margin: auto;
+        width: 300px !important;
+    }
+    #assistimg{
+        margin: auto;
+        width: 250px !important;
+    }
+    #cicloimg{
+        margin: auto;
+        width: 250px !important;
+    }
+}
